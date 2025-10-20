@@ -2,6 +2,10 @@
     font-family: Dreams;
     src: url(fonts/DREAMER.ttf);
 }
+@font-face {
+    font-family: REVERIE;
+    src: url(fonts/REVERIE.ttf);
+}
 
 * {
     font-family: Dreams;
