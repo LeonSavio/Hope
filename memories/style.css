@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Dreams;
+    src: url(fonts/DREAMER.ttf);
+}
+@font-face {
+    font-family: REVERIE;
+    src: url(fonts/REVERIE.ttf);
+}
+
+* {
+    font-family: Dreams, Verdana;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+div {
+    margin-top: 35vh;
+}
+
+#Main img {
+    margin-top: 20px;
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.014);
+}
