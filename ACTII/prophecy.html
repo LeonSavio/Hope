@@ -10,7 +10,14 @@
 <body>
         <img style="margin-top: 25vh;" src="../assets/Prophecy.gif" alt="">
 </body>
-<audio autoplay>
-    <source src="../assets/prophecy.mp3" type="audio/mp3">
+<audio id="prophecy">
+  <source src="../assets/prophecy.mp3" type="audio/mp3">
 </audio>
+
+<script>
+  document.addEventListener("click", function() {
+    const audio = document.getElementById("prophecy");
+    audio.play();
+  }, { once: true });
+</script>
 </html>
