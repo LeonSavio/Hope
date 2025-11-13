@@ -7,7 +7,8 @@
   }
 
   if (Page == "?outerakamado") {
-          var dt = "assets/ebta.ssinmgi"
+      document.getElementById("Check").onclick = function() {
+          window.location.href = "hereyougo.html"
   }
-
+}
 };
