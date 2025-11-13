@@ -3,7 +3,11 @@
 
   // Verifica o valor e redireciona
   if (Page == "?elliesshard") {
-    window.location.href = " #";
+    window.location.href = "#";
+  }
+
+  if (Page == "?outerakamado") {
+          var dt = "assets/ebta.ssinmgi"
   }
 
 };
