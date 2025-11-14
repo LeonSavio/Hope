@@ -1,14 +1,24 @@
-  document.getElementById("Check").onclick = function() {
-  const Page =(window.location.search);
+document.addEventListener("DOMContentLoaded", () => {
 
-  // Verifica o valor e redireciona
-  if (Page == "?elliesshard") {
-    window.location.href = "#";
-  }
+    const images = document.querySelectorAll(".vessel");
 
-  if (Page == "?outerakamado") {
-      document.getElementById("Check").onclick = function() {
-          window.location.href = "hereyougo.html"
-  }
-}
-};
+    images.forEach(img => {
+        img.addEventListener("click", () => {
+
+            const Page = window.location.search;  // ex: "?elliesshard"
+
+            if (Page === "?elliesshard") {
+                window.location.href = "a";   // coloque destino real
+                return;
+            }
+
+            if (Page === "?outerakamado") {
+                alert("a");
+                return;
+            }
+
+            console.log("Query atual:", Page);
+        });
+    });
+
+});
