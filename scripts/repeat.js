@@ -1,8 +1,8 @@
-document.getElementById("Repeat").onclick = function() {
 
-    if (contador === 4 ){
+
+if (contador === 4 ){
         window.location.href = 'promise.html'
-    }
+}
 
 let contador = localStorage.getItem("contador") || 0;
 
@@ -15,7 +15,3 @@ let contador = localStorage.getItem("contador") || 0;
         localStorage.setItem("contador", contador);  
         location.reload(); 
     });
-
-
-
-}
