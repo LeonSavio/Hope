@@ -4,47 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>* (You should be here yet)</title>
-<!-- A resposta, eles podem! meu querido. --> 
+    <!-- A resposta, eles podem! meu querido. -->
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/StarIco.png" type="image/x-icon">
 </head>
 <body>
+    <div class="img"></div>
     <div>
-    <a id="Repeat">Their Name</a><a id="Repeat">.</a><br>
-    <a id="Ellie"; id="Repeat">Their only name</a><a id="Ellie"; oid="Repeat">.</a>
-</div>
-    <div class="background">
-        <h2>Repeat.</h2>
-        <h2>Repeat.</h2>
-        <h2>Repeat.</h2>
-        <h2>Repeat.</h2>
-        <h2>Repeat.</h2>
-        <h2>Repeat.</h2>
-        <h2>Repeat.</h2>
-        <h2>Repeat.</h2>
-        <h2>Repeat.</h2>
-        <h2>Repeat.</h2>
-        <h2>Repeat.</h2>
-        <h2>Repeat.</h2>
-        <h2 style="margin-top: 0vh;">* "-ㅤㅤㅤ- that what the universe wants?"</h2>
+    <a onclick="window.location.href='repeat.html'">Their Name</a><a onclick="window.location.href='repeat.html'">.</a><br>
+    <a id="Ellie"; onclick="window.location.href='repeat.html'">Their only name</a><a id="Ellie"; onclick="window.location.href='repeat.html'">.</a>
     </div>
-</body>
 
+</body>
 <style>
     div{
-        margin-top: 200px;
+        padding: 0px;
+        margin: 0px;
     }
     #Ellie{
         font-size: 48px;
         color: rgba(0, 0, 0, 0.021);
     }
-    a{
+    a{  
+        z-index: 100;
         font-size: 48px;
+        opacity: 1;
     }
-    .background{
+    body{
+        background-image: url(assets/Whatyouarefeeling.png);
+    }
+    .img{
+        z-index: -100;
         position: absolute;
-        font-size: 32px;
-        bottom: 45%;
+        width: 100%;
+        height: 100vh;
+        background-image: url(assets/Repeat.png);
+        opacity: 0.012;
     }
 </style>
 <script src="/scripts/repeat.js">
